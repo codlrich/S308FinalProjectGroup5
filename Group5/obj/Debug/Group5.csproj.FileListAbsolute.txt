@@ -17,3 +17,6 @@ C:\Users\codyl\Box Sync\Semester 7\S308\Group Project\Group5\Group5\obj\Debug\Ma
 C:\Users\codyl\Box Sync\Semester 7\S308\Group Project\Group5\Group5\obj\Debug\Window1.baml
 C:\Users\codyl\Box Sync\Semester 7\S308\Group Project\Group5\Group5\obj\Debug\MainWindow1.g.cs
 C:\Users\codyl\Box Sync\Semester 7\S308\Group Project\Group5\Group5\obj\Debug\MainWindow1.baml
+C:\Users\bklax\Desktop\Github\Group5\bin\Debug\Group5.exe.config
+C:\Users\bklax\Desktop\Github\Group5\obj\Debug\Group5.exe
+C:\Users\bklax\Desktop\Github\Group5\obj\Debug\Group5.pdb
