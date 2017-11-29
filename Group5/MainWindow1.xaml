@@ -1,0 +1,27 @@
+﻿<Window x:Class="Group5.MainWindow1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReservationReport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="750">
+    <Grid Background="#FF990000">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblTitle" Content="Reservation Report" HorizontalAlignment="Left" Margin="30,6,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="36" Height="69" Width="359" Foreground="White"/>
+        <Label x:Name="lblInstructions" Content="This form shows the reservations that have&#xD;&#xA;been made in the system as a report." HorizontalAlignment="Left" Margin="30,61,0,0" VerticalAlignment="Top" Height="55" Width="397" Foreground="White" FontSize="18"/>
+        <Label x:Name="lblStartDate" Content="Start Date" HorizontalAlignment="Left" Margin="30,144,0,0" VerticalAlignment="Top" Height="26" Width="78" FontSize="14" Foreground="White"/>
+        <DatePicker x:Name="dtpStartDate" HorizontalAlignment="Left" Margin="144,144,0,0" VerticalAlignment="Top" Width="169" DisplayDate="2017-11-11" Text="11/11/2017" Height="28" FontSize="14"/>
+        <Label x:Name="lblEndDate" Content="End Date" HorizontalAlignment="Left" Margin="30,181,0,0" VerticalAlignment="Top" Height="26" Width="73" FontSize="14" Foreground="White"/>
+        <DatePicker x:Name="dtpEndDate" HorizontalAlignment="Left" Margin="144,181,0,0" VerticalAlignment="Top" Height="28" Width="169" DisplayDate="2017-11-12" Text="11/12/2017" FontSize="14"/>
+        <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="30,218,0,0" VerticalAlignment="Top" Height="26" Width="83" FontSize="14" Foreground="White"/>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="26" Margin="144,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171" Text="Boothby" FontSize="14"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="35,258,0,0" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Foreground="White" Background="Black" FontWeight="Bold"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="185,258,0,0" VerticalAlignment="Top" Width="130" Height="40" FontSize="14" Foreground="White" Background="Black" FontWeight="Bold"/>
+        <Button x:Name="btnReturntoMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="557,24,0,0" VerticalAlignment="Top" Width="160" Height="40" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txtResults" HorizontalAlignment="Left" Height="200" Margin="369,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="338" Text="==============================================&#xD;&#xA;=============== HOOSIER HOTELS ===============&#xD;&#xA;==============================================&#xD;&#xA;&#xD;&#xA;Check-in Date: 11/11/2017&#xA;Number of Nights: 1&#xA;Room Type: One King&#xA;Number of Rooms: 1&#xA;Room Price: $179&#xA;Total: $201.53&#xA;First Name: Matthew&#xA;Last Name: Boothby&#xA;Phone: (312) 459-6721&#xA;Email: mboothby@indiana.edu" FontFamily="Courier New" IsTabStop="False"/>
+
+    </Grid>
+</Window>

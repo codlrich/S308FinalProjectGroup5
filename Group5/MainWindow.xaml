@@ -1,0 +1,24 @@
+﻿<Window x:Name="winMainMenu" x:Class="Group5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Group5"
+        mc:Ignorable="d"
+        Title="Main Menu" Height="500" Width="850">
+    <Grid Background="#FF990000">
+        <TextBox x:Name="txtTitle" HorizontalAlignment="Left" Height="55" Margin="10,10,0,0" TextWrapping="Wrap" Text="Hoosier Hotels - Reservation Manager" VerticalAlignment="Top" Width="656" FontWeight="Bold" FontSize="36" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" IsTabStop="False"/>
+        <TextBox x:Name="txtGreeting" HorizontalAlignment="Left" Height="30" Margin="10,60,0,0" TextWrapping="Wrap" Text="Good Afternoon Matthew Boothby!" VerticalAlignment="Top" Width="613" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" FontSize="18" IsTabStop="False"/>
+        <TextBox x:Name="txtCurrentDate" HorizontalAlignment="Left" Height="23" Margin="10,95,0,0" TextWrapping="Wrap" Text="October 31, 2017" VerticalAlignment="Top" Width="210" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="14" IsTabStop="False"/>
+        <TextBox x:Name="txtCurrentTime" HorizontalAlignment="Left" Height="23" Margin="10,120,0,0" TextWrapping="Wrap" Text="3:02 PM EST" VerticalAlignment="Top" Width="210" Foreground="White" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="14" IsTabStop="False"/>
+        <Button x:Name="btnNewReservation" Content="New Reservation" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Width="273" Height="100" Background="Black" Foreground="White" FontSize="24" BorderBrush="Black"/>
+        <Button x:Name="btnRoomManagement" Content="Room Management" HorizontalAlignment="Left" Margin="441,177,0,0" VerticalAlignment="Top" Width="273" Height="102" Background="Black" Foreground="White" FontSize="24" BorderBrush="Black"/>
+        <Image x:Name="imgRoomManagement" HorizontalAlignment="Left" Height="100" Margin="721,177,0,0" VerticalAlignment="Top" Width="100" Source="Images/RoomManagement.png"/>
+        <Button x:Name="btnReservationsReport" Content="Reservations Report" HorizontalAlignment="Left" Margin="10,328,0,0" VerticalAlignment="Top" Width="273" Height="102" Background="Black" Foreground="White" FontSize="24" BorderBrush="Black"/>
+        <Button x:Name="btnNearbyHoosierHotels" Content="Nearby Hoosier Hotels" HorizontalAlignment="Left" Margin="441,328,0,0" VerticalAlignment="Top" Width="273" Height="102" Background="Black" Foreground="White" FontSize="24" BorderBrush="Black"/>
+        <Image x:Name="imgNearbyHoosierHotels" HorizontalAlignment="Left" Height="102" Margin="714,328,0,0" VerticalAlignment="Top" Width="102" Source="Images/NearbyHoosierHotels.png"/>
+        <Image x:Name="imgReservationReport" HorizontalAlignment="Left" Height="103" Margin="283,328,0,0" VerticalAlignment="Top" Width="103" Source="Images/ReservationReport.png"/>
+        <Image x:Name="imgNewReservation" HorizontalAlignment="Left" Height="116" Margin="290,177,0,0" VerticalAlignment="Top" Width="116" Source="Images/NewReservation.png"/>
+
+    </Grid>
+</Window>

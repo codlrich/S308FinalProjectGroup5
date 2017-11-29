@@ -1,0 +1,23 @@
+﻿<Window x:Name="winNearbyHoosierHotels" x:Class="Group5.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Group5"
+        mc:Ignorable="d"
+        Title="Nearby Hoosier Hotels" Height="270" Width="850">
+    <Grid Margin="0,2,0,-1.8" Background="#FF990000">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lblTitle" Content="Nearby Hoosier Hotels" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Background="{x:Null}" FontWeight="Bold" FontSize="36" Foreground="White"/>
+        <Label x:Name="lblInstructions" Content="Enter your zip code and select &quot;Search&quot; &#xD;&#xA;to find nearby Hoosier Hotels!" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="59" Width="328" FontSize="18" Foreground="White"/>
+        <Label x:Name="lblZipCode" Content="Zip Code" HorizontalAlignment="Left" Margin="13,131,0,0" VerticalAlignment="Top" FontSize="18" Foreground="White"/>
+        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Height="34" Margin="121,131,0,0" TextWrapping="Wrap" Text="47408" VerticalAlignment="Top" Width="173" FontSize="18"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="13,187,0,0" VerticalAlignment="Top" Width="130" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="164,187,0,0" VerticalAlignment="Top" Width="130" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txtOutput" HorizontalAlignment="Left" Height="151" Margin="351,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Text="==================================================================&#xD;&#xA;======================== HOOSIER HOTELS ==========================&#xD;&#xA;==================================================================&#xD;&#xA;Address                Zip Code     Phone Number       Miles Away&#xA;216 Woodlawn Avenue    42214        812-617-2200       23&#xA;123 North Street       43125        812-541-7100       50&#xA;123 Apple Road         41125        317-789-8989       72&#xA;123 Sample Street      41125        317-456-2154       74&#xA;123 Ocean Blvd         45230        560-123-4687       110&#xA;123 Demo Road          45230        560-224-1829       114" FontFamily="Courier New" Background="White" Foreground="#FF060000"/>
+        <Button x:Name="btnReturnToMainMenu" Content="Return to Main Menu" HorizontalAlignment="Left" Margin="675,10,0,0" VerticalAlignment="Top" Width="160" Height="40" BorderBrush="Black" Foreground="White" Background="Black" FontWeight="Bold" FontSize="14"/>
+
+    </Grid>
+</Window>
